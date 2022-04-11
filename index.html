@@ -13,9 +13,9 @@
 <body>
     <div id="root">
         <div>
-            <ul v-for="element in 10">
-                <li>
-                    {{emailRandom}}
+            <ul>
+                <li v-for="mail in arrayEmailsR" v-if="arrayEmailsRlength = 10">
+                    {{mail}}
                 </li>
                 
             </ul>
